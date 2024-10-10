@@ -1,5 +1,10 @@
 vsphere-cpi:
-
+  global:
+    config:
+      existingConfig:
+        enabled: false
+        type: Secret
+        name: vsphere-cpi
   vSphereCPI:
     image:
       registry: registry.k8s.io
