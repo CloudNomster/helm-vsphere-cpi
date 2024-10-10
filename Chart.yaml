@@ -1,13 +1,13 @@
 apiVersion: v2
-name: vsphere-csi
-description: A Helm chart for vsphere-csi
-home: https://github.com/CloudNomster/helm-vsphere-csi
+name: vsphere-cpi
+description: A Helm chart for vsphere-cpi
+home: https://github.com/CloudNomster/helm-vsphere-cpi
 type: application
 version: 0.1.0
 deprecated: false
 
 dependencies:
-  - name: vsphere-csi
-    version: 3.3.1
+  - name: vsphere-cpi
+    version: 1.6.0
     repository: https://vsphere-tmm.github.io/helm-charts
 
