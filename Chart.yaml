@@ -11,3 +11,14 @@ dependencies:
     version: 1.6.0
     repository: https://vsphere-tmm.github.io/helm-charts
 
+    values: |
+      vsphere-cpi:
+        global:
+          config:
+            vcenter:
+              <path:k8s/data/vsphere#hostname>:
+                server: <path:k8s/data/vsphere#hostname>
+                user: <path:k8s/data/vsphere#user>
+                password: <path:k8s/data/vsphere#pass>
+                datacenters:
+                  - GeekHouse
