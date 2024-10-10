@@ -2,7 +2,7 @@ vsphere-cpi:
   global:
     config:
       existingConfig:
-        enabled: false
+        enabled: true
         type: Secret
         name: vsphere-cpi
   vSphereCPI:
