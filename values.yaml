@@ -2,7 +2,7 @@ vsphere-cpi:
   global:
     config:
     vcenter:
-      <path:k8s/data/vsphere#hostname>:
+      vcenter:
         server: <path:k8s/data/vsphere#hostname>
         user: <path:k8s/data/vsphere#user>
         password: <path:k8s/data/vsphere#pass>
